@@ -1,0 +1,62 @@
+li a{
+    color: white!important;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+li a:hover{
+        color: lime!important;
+        box-shadow: 2px 2px red;
+        padding: 3px 3px;
+        text-align: center;
+}
+a:hover{
+        box-shadow: inset 2px 2px 2px grey, inset -2px -2px 2px grey, inset -2px 2px 2px black, inset 2px -2px 2px black;
+}
+.one{
+    border-radius: 10px;
+    background: linear-gradient(to top, rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(image.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+    margin-top: 100px;
+    box-shadow: -3px 3px 3px grey, 3px -3px 3px grey!important;
+}
+.pic{
+    background: url(pic.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 50%;
+}
+.two{
+    border-radius: 10px;
+    color: white;
+}
+.cse{
+    box-shadow: 2px 2px 2px grey;
+    padding: 5px 10px;
+    border-radius: 20px;
+    margin-top: 30px;
+}
+span1{
+    color: red;
+}
+span2{
+    color: navy;
+    text-decoration: underline;
+}
+span3{
+    color: green;
+}
+.sha{
+    box-shadow:  -5px -5px 10px grey,5px 5px 10px grey!important;
+    border-radius: 50%;
+}
+.foot li{
+    color: white;
+    list-style-type: none;
+}
+.ulli li{
+    list-style-type: none;
+}
+.hli li{
+    margin-left: 60px;
+}
